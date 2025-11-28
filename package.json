@@ -1,7 +1,7 @@
 {
   "name": "assignment10",
   "version": "1.0.0",
-  "description": "",
+  "description": "A REST API for managing tasks with user authentication, built with Node.js, Express, and SQLite.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -14,12 +14,23 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.0",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmitmpr/Assignment10_DeployingBackendApplication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpmitmpr/Assignment10_DeployingBackendApplication/issues"
+  },
+  "homepage": "https://github.com/jpmitmpr/Assignment10_DeployingBackendApplication#readme"
 }
